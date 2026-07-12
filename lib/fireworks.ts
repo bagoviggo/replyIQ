@@ -3,7 +3,7 @@ import OpenAI from "openai";
 // Fireworks AI is OpenAI-compatible and runs on AMD GPU infrastructure
 // Model: Gemma 3 27B Instruction Tuned (Google DeepMind, hosted on AMD via Fireworks)
 const FIREWORKS_BASE_URL = "https://api.fireworks.ai/inference/v1";
-const GEMMA_MODEL = "accounts/fireworks/models/gemma3-27b-it";
+const GEMMA_MODEL = "accounts/fireworks/models/gemma-3-27b-it";
 
 export function getFireworksClient() {
   const apiKey = process.env.FIREWORKS_API_KEY;
